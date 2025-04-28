@@ -19,12 +19,14 @@
         android:textStyle="bold"/>
 
     <EditText
+        android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:hint="첫번째 숫자를 입력하세요."/>
 
     <EditText
+        android:id="@+id/edit2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -39,66 +41,77 @@
         android:columnCount="5">
 
         <Button
+            android:id="@+id/btn0"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="0"/>
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="1"/>
 
         <Button
+            android:id="@+id/btn2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="2"/>
 
         <Button
+            android:id="@+id/btn3"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="3"/>
 
         <Button
+            android:id="@+id/btn4"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="4"/>
 
         <Button
+            android:id="@+id/btn5"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="5"/>
 
         <Button
+            android:id="@+id/btn6"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="6"/>
 
         <Button
+            android:id="@+id/btn7"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="7"/>
 
         <Button
+            android:id="@+id/btn8"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="8"/>
 
         <Button
+            android:id="@+id/btn9"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:text="9"/>
 
         <Button
+            android:id="@+id/btn_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -107,6 +120,7 @@
             android:text="더하기"/>
 
         <Button
+            android:id="@+id/btn_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -115,6 +129,7 @@
             android:text="빼기"/>
 
         <Button
+            android:id="@+id/btn_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -123,6 +138,7 @@
             android:text="곱하기"/>
 
         <Button
+            android:id="@+id/btn_divide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -137,18 +153,15 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/text_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
             android:text="계산 결과: "
             android:textColor="#ff0000"
             android:textSize="20sp"
             android:textStyle="bold" />
-
-        <EditText
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
 
